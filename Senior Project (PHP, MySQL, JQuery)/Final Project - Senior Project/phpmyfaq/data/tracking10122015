@@ -1,0 +1,12 @@
+80;new_session;0;68.199.225.223;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449707720;
+81;new_session;0;68.132.126.135;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Macintosh, Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7;1449713327;
+82;new_session;0;68.199.225.223;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449719246;
+83;new_session;0;68.132.126.135;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Macintosh, Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7;1449720403;
+83;instantresponse;0;68.132.126.135;sid=83&lang=en&action=instantresponse;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Macintosh, Intel Mac OS X 10_11_1) AppleWebKit/601.2.7 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.7;1449720405;
+84;new_session;0;68.199.225.223;action=ask&category_id=0;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449721689;
+85;ask_question;0;68.199.225.223;action=ask&category_id=0;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449721689;
+86;new_session;0;68.199.225.223;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449766722;
+87;new_session;0;63.148.12.202;;http://www.wufsdticketsystem.com/ticketsubmissionpage.php;Mozilla/5.0 (Windows NT 6.1, WOW64, rv:42.0) Gecko/20100101 Firefox/42.0;1449778452;
+88;new_session;0;63.148.12.202;action=login;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 6.1, WOW64, rv:42.0) Gecko/20100101 Firefox/42.0;1449778567;
+89;new_session;0;137.125.133.191;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240;1449788108;
+89;open_questions;0;137.125.133.191;sid=89&lang=en&action=open;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 10.0, Win64, x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240;1449788114;

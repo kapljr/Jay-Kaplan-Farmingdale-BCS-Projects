@@ -1,0 +1,22 @@
+#!/bin/bash
+#=======================================================
+# Script Name: deletehuser
+# By: Jay Kaplan
+# Date 12/12/2014
+# Purpose: Deletes files for a specified record in the
+# semester project
+#=======================================================
+userfile=~/project/datafile
+clear
+tput cup 16 4; echo "Delete User Record"
+tput cup 17 4; echo "Name: "
+tput cup 17 11; read fname
+fname=`echo $fname | tr [a-z] [A-Z]`
+tput cup 18 4; echo "Accept? (y)es or (n)o: "
+tput cup 18 27; read Accept
+if test $Accept = "y" -o $Accept = "Y"
+ then
+ sed /^$fname/d $userfile > f
+ cp f $userfile
+ rm f
+fi

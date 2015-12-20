@@ -1,0 +1,9 @@
+75;new_session;0;137.125.105.86;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.1, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36;1449619850;
+76;new_session;0;74.108.93.44;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.1, WOW64, rv:42.0) Gecko/20100101 Firefox/42.0;1449626556;
+77;new_session;0;74.108.93.44;;http://wufsdticketsystem.com/phpmyfaq/admin/index.php;Mozilla/5.0 (Windows NT 6.1, WOW64, rv:42.0) Gecko/20100101 Firefox/42.0;1449626995;
+78;new_session;0;68.199.225.223;;http://www.wufsdticketsystem.com/dbimages.php;Mozilla/5.0 (Windows NT 6.3, WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36;1449629367;
+77;article_view;8;74.108.93.44;action=artikel&cat=5&id=8&artlang=en;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 6.1, WOW64, rv:42.0) Gecko/20100101 Firefox/42.0;1449629598;
+79;new_session;0;68.199.225.223;;http://www.wufsdticketsystem.com/ticketspage.php;Mozilla/5.0 (Windows NT 6.3, WOW64, rv:41.0) Gecko/20100101 Firefox/41.0;1449693729;
+79;article_view;4;68.199.225.223;sid=79&lang=en&action=artikel&cat=6&id=4&artlang=en;http://www.wufsdticketsystem.com/phpmyfaq/;Mozilla/5.0 (Windows NT 6.3, WOW64, rv:41.0) Gecko/20100101 Firefox/41.0;1449693776;
+79;show_category;1;68.199.225.223;sid=79&lang=en&action=show&cat=1;http://wufsdticketsystem.com/phpmyfaq/index.php?sid=79&lang=en&action=artikel&cat=6&id=4&artlang=en;Mozilla/5.0 (Windows NT 6.3, WOW64, rv:41.0) Gecko/20100101 Firefox/41.0;1449693798;
+79;show_all_categories;0;68.199.225.223;action=show;http://wufsdticketsystem.com/phpmyfaq/index.php?sid=79&lang=en&action=show&cat=1;Mozilla/5.0 (Windows NT 6.3, WOW64, rv:41.0) Gecko/20100101 Firefox/41.0;1449693811;

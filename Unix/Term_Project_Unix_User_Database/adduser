@@ -1,0 +1,55 @@
+#!/bin/bash
+# =======================================================
+# Script Name: adduser
+# By: jay kaplan
+# Date: 12/12/2014
+# Purpose: A shell script that sets up a loop to add
+# new users to the user data file.
+# Command Line: adduser
+#
+# NEED TO ADD IN A COMMAND THAT CREATES A USER NAME AND SENDS IT
+# TO THE FILE ALONG IWTH THE OTHER DATA
+#
+# =======================================================
+trap "rm -r ~/tmp/* 2> /dev/null; exit" 0 1 2 3
+userfile=~/project/datafile
+looptest=y
+while [ $looptest = "y" -o $looptest = "Y" ]
+do
+clear
+tput cup 1 4; echo "New User Additions to Data File"
+tput cup 2 4; echo "==============================="
+tput cup 4 4; echo "First Name: "
+tput cup 5 4; echo "Last Name : "
+tput cup 6 4; echo "Add Another? (y)es or (q)uit: "
+tput cup 4 16; read fname
+fname=`echo $fname | tr [a-z] [A-Z]`
+tput cup 5 16; read lname
+lname=`echo $lname | tr [a-z] [A-Z]`
+username=`echo $fname:$lname | tr [a-z] [A-Z] | awk -F: '{printf "%1.1s%4.4s\n", $1, $2}'`
+#checks to see if user name already exists
+while grep "$username" $userfile > ~/tmp/temp
+do
+	a=1
+	username=$username$a
+done
+if [ $fname = "q" -o $fname = "Q" ]
+then
+clear; exit
+fi
+# Check to see if last name is not a blank before you
+# write to disk
+if [ -z "$fname" ] || [ -z "$lname" ]
+then
+clear
+tput cup 7 4; echo "Can't leave blank fields"
+tput cup 8 4; echo "Hit enter to start over"
+else
+echo "$fname:$lname:$username" >> $userfile
+fi
+tput cup 6 33; read looptest
+if [ $looptest = "q" -o $looptest = "Q" ]
+then
+clear; exit
+fi
+done

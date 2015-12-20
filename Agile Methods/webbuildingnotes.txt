@@ -1,0 +1,26 @@
+FSC Movie Rating Site - for farmingdale students to rate movies and share their opinions
+
+Site provides ability for users to share their experiences and comments about recent movies
+
+Pages:
+1) Login Page
+2) Registration Page
+3) User Details Page - shows reg info and lists users comment history
+4) Movie Rating Page - add a rating and comments for a selected movie.
+4a) Movie Selection Page - select movie to be rated or view that movies ratings.
+5) Movie Detail Page - Add information/edut information about a selected movies, change details or upload a picture
+6) Feedback Page - user can leave feedback
+7) Add Movie Page - creates new movie information
+8) View Site Users details
+9) View All sites comments
+10) View feedback page
+11) Abouts Page - add info for DFD, and data stuff, erd.
+
+Extra Pages for additional Credit:
+RSS movie news page - from TMZ, Google movie news, IMDB, rotten tomatoes.
+File upload - uploading of movie posters
+Jquery on page - look into some plugings from Jquery UI
+
+
+
+

@@ -1,0 +1,16 @@
+/**
+ * phpMyFAQ 2.8 Bootswatch 3 Themes
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public License,
+ * v. 2.0. If a copy of the MPL was not distributed with this file, You can
+ * obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * @category  phpMyFAQ
+ * @package   Layout
+ * @author    Thorsten Rinne <thorsten@phpmyfaq.de>
+ * @copyright 2010-2013 phpMyFAQ Team
+ * @license   http://www.mozilla.org/MPL/2.0/ Mozilla Public License Version 2.0
+ * @link      http://www.phpmyfaq.de
+ * @since     2010-01-17
+ */
+#footer{background-color:#eee}section{margin-top:0;padding-top:0}body{line-height:24px}#content{padding-top:80px}#content .categories{padding:8px 0;font-size:15px}#content .categories .users-online{padding:10px;text-align:center}#content .breadcrumb-related-categories li{list-style-type:disc}#content .breadcrumb-related-categories>li{display:inline-block;*display:inline;*zoom:1}#content .nav{margin-bottom:0}#content .answer{margin-bottom:20px}#content .related-faqs{margin-top:20px}#content .highlight{text-decoration:dotted;border:1px dashed #f89406;background-color:#eee;padding:1px}#content .sticky-faqs{margin-bottom:20px}#content .tab-content{padding:5px}.star-rating{padding:2px;font-size:30px;line-height:50px;text-align:center;unicode-bidi:bidi-override;direction:rtl}.star-rating>span{display:inline-block;position:relative;cursor:pointer}.star-rating>span:hover:before,.star-rating>span:hover~span:before{content:"\2605";position:absolute;cursor:pointer}#footer ul.footer-menu{list-style:none outside none}#footer ul.footer-menu li{float:left;list-style:none outside none;margin-right:22px}#content .faq-information{background-color:#fff;border-left:1px solid #eee;border-bottom:1px solid #eee;border-right:1px solid #eee;border-bottom-left-radius:8px;border-bottom-right-radius:8px;margin-bottom:10px}#social{margin-top:0}#language.language{margin-bottom:0}.label,.badge{display:inline-block;padding:2px 4px;font-size:11.844px;font-weight:700;line-height:14px;color:#fff;vertical-align:baseline;white-space:nowrap;text-shadow:0 -1px 0 rgba(0,0,0,.25);background-color:#999}.label{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.badge{padding-left:9px;padding-right:9px;-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px}.label:empty,.badge:empty{display:none}a.label:hover,a.label:focus,a.badge:hover,a.badge:focus{color:#fff;text-decoration:none;cursor:pointer}.label-important,.badge-important{background-color:#b94a48}.label-important[href],.badge-important[href]{background-color:#953b39}.label-warning,.badge-warning{background-color:#f89406}.label-warning[href],.badge-warning[href]{background-color:#c67605}.label-success,.badge-success{background-color:#468847}.label-success[href],.badge-success[href]{background-color:#356635}.label-info,.badge-info{background-color:#3a87ad}.label-info[href],.badge-info[href]{background-color:#2d6987}.label-inverse,.badge-inverse{background-color:#333}.label-inverse[href],.badge-inverse[href]{background-color:#1a1a1a}.nav-indent{padding-left:20px}html,body{height:100%}#wrap{padding-top:70px;padding-left:20px;padding-right:20px;min-height:100%;height:auto!important;height:100%;margin:0 auto -90px}#push,#footer{height:90px;padding-top:10px}

@@ -1,0 +1,16 @@
+#!/bin/bash
+# =======================================================
+# Script Name: printuser
+# By: Jay Kaplan
+# Date: 12/12/2014
+# Purpose: To print usernames list for project
+# Command Line: printuser
+# =======================================================
+echo "$CLEAR"
+clear
+tput cup 2 20; echo "UserName Data List"
+tput cup 3 20; echo "=================="
+tput cup 5 0;
+awk -F: '{printf "%10s %10s %10s\n", $3, $1, $2}' datafile | tr [a-z] [A-Z] | sort -k 1
+tput cup 23 1; echo "Hit Enter to Return to the Previous Menu"
+read prompt

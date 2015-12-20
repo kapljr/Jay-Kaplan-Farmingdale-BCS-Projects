@@ -1,0 +1,40 @@
+User:
+As a user, I want to be able to rate and comment on movies.
+As a user, I want to be able to view my comments history to see which movies I have commented on.
+As a user, I want to be able to select which movie I can comment on.
+As a user, I want to see which movies have the most comments
+As a user, I want to see which movies have been rated the highest by users
+As a user, I want to be able to see other peoples comments for movies that I liked.
+As a user, I want to be able to leave comments and feedback for the site owners
+
+Admin:
+As an admin, I want to be able to review comments and ratings by users.
+As an admin, I want users to be able to login to site.
+As an admin, if users are not registered, I want them to be able to register.
+As an admin, I want users to be able to input their information into the system
+As an admin, I want users to be able to view their own profiles and details in order to change information such as passwords
+As an admin, I want to be able to add movies, and movie information such as cast, and movie description.
+As an admin, I want to be able to read comments and feedback left by users.
+As an admin, I want to be able to view who are the users of the system.
+As an admin, I want to be able to delete movies.
+As an admin, I want to be able to update movie information.
+As an admin, I want to be able to remove comments.
+As an admin, I want to be able to remove users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

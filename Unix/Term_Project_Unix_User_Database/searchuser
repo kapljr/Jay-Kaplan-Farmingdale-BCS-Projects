@@ -1,0 +1,21 @@
+#!/bin/bash
+#=======================================================
+# Script Name: searchuser
+# By: Jay Kaplan
+# Date 12/12/2014
+# Purpose: Searches for a specified record in the
+# semester project
+#=======================================================
+userfile=~/project/datafile
+clear
+tput cup 5 1
+echo "Enter name to search for: "
+tput cup 5 27
+read fname
+fname=`echo $fname | tr [a-z] [A-Z]`
+echo
+awk -F: -v fname=$fname '{ if ( $1 == fname ) print $0 }' datafile | tr ':' ' '
+#grep -i $fname $userfile | tr ':' ' '
+echo
+echo "Press ENTER to continue..."
+read continue
